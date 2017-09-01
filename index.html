@@ -21,12 +21,9 @@
         <article class="middle">
             This website will progress as I work through the HTML5 fundamentals course.
             The website was last updated at <time datetime="2017-08-14 15:44">3:44 PM August 14, 2017</time>
-            <section itemscope itemtype="http://schema.org/Person">
+            <section>
                 <h2>Microdata</h2>
-                My name is <span translate="no" itemprop="givenName familyName">Ravi Singh</span>.I am an electrical and computer engineering student at the <span itemprop="affiliation">University of
-                Toronto</span>. As a capable leader, and effective communicator I love working
-                in team environments. I firmly believe in the innovative use of existing 
-                technology to resolve challenging problems.
+                My name is Ravi Singh.I am an electrical and computer engineering student at the University of Toronto. As a capable leader, and effective communicator I love working in team environments. I firmly believe in the innovative use of existing technology to resolve challenging problems.
                 <br></br>
                 I am currently learning about front end development and progressing towards 
                 back end development with node.js. Whether it's a side project, an assignment,
@@ -53,6 +50,16 @@
 
         </aside>
         </div>
+        <section itemscope itemtype="http://schema.org/Person">
+            <h2>Contact</h1>
+            <strong><span itemprop="name">Ravi Singh</span></strong>
+            <div itemprop="affiliation">University of Toronto</div>
+            <div itemscope itemtype="http://schema.org/Organization">
+                <span itemprop="department">Electrical and Computer Engineering</span>
+            </div>    
+            <div itemprop="telephone">(647) 702 6177</div>
+            <div itemprop="email">r.singh98@hotmail.com</div>
+        </section>
         <details>
             this is me playing around with the details and the summary items
             <summary>
