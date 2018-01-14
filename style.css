@@ -1,0 +1,22 @@
+ul {
+    display: flex;
+    flex-wrap: nowrap; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left {
+    background-color: turquoise;
+}
+.middle {
+    background-color: palevioletred;
+}
+.right {
+    background-color: green;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
